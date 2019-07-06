@@ -1,0 +1,33 @@
+{
+  "name": "blogilista",
+  "version": "1.0.0",
+  "description": "Blogilista",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tintti68/fullstack2019osa4.git"
+  },
+  "keywords": [
+    "fullstackopen2019"
+  ],
+  "author": "Pekka Tiainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tintti68/fullstack2019osa4/issues"
+  },
+  "homepage": "https://github.com/tintti68/fullstack2019osa4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
